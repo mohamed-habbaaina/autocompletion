@@ -1,0 +1,66 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+}
+body{
+	color: black;
+	font-size: 24px;
+}
+a{
+    text-decoration: none;
+}
+header{
+    height: 12%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+header button{
+    background-color: rgb(9, 9, 80);
+    margin-right: 5%;
+    padding: 2px 4px;
+    border-radius: 6px;
+    font-size: 20px;
+    transition: all 0.5s;
+    padding: 12px 24px;
+}
+header button a{
+    color: white;
+    
+}
+header button:hover{
+    color: rgb(9, 9, 80);
+    border: 2px solid rgb(9, 9, 80);
+    background-color: rgb(144, 144, 249);
+}
+main{
+    display: flex;
+	width: inherit;
+    height: 88%;
+    justify-content: center;
+    align-items: center;
+
+}
+main div{
+    width: 650px;
+}
+main div h3{
+    margin-bottom: 30px;
+}
+table,thead,th,tbody,td{
+    border: 2px solid black;
+}
+thead{
+    background-color: rgb(9, 9, 80);
+    color: white;
+    font-weight: bold;
+}
+th, td{
+    padding: 8px 5px;
+}
