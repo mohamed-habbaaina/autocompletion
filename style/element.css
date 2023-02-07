@@ -32,7 +32,7 @@ header button{
 }
 header button a{
     color: white;
-    
+
 }
 header button:hover{
     color: rgb(9, 9, 80);
@@ -40,12 +40,11 @@ header button:hover{
     background-color: rgb(144, 144, 249);
 }
 main{
-    display: flex;
-	width: inherit;
+    width: inherit;
     height: 88%;
+    display: flex;
     justify-content: center;
     align-items: center;
-
 }
 main div{
     width: 650px;
@@ -64,3 +63,21 @@ thead{
 th, td{
     padding: 8px 5px;
 }
+/**************	Les @media screen  */
+@media screen and (max-width: 768px) {
+	main div{
+		width: 450px;
+	}
+  
+
+	}
+	@media screen and (max-width: 450px){
+		main div{
+			width: 380px;
+		}
+	}
+	@media screen and (max-width: 350px){
+		main div{
+			width: 280px;
+		}
+	}
