@@ -32,7 +32,7 @@ form{
     align-items: center;
     justify-content: center;
 		width: 500px;
-    margin: 0 auto;
+    margin: 10% auto 0;
 }
 form input{
 		width: 560px;
