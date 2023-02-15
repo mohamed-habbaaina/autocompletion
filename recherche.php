@@ -11,7 +11,7 @@ if (isset($_GET['search'])):
         echo 'ERROR CONNECTION: ' . $e->getMessage();
     }
 
-    // //   ?connexion Plesk
+    //   ?connexion Plesk
     // $servername = "localhost";
     // $database = "mohamed-habbaaina_autocompletion";
     // $username = "modul_connexion";
@@ -19,7 +19,7 @@ if (isset($_GET['search'])):
     
     // try {
     //   $db = new PDO("mysql:host=$servername;dbname=$database",$username,$password);
-    //   // set the PDO error mode to exception
+         // set the PDO error mode to exception
     //   $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     // } catch(PDOException $e) {
     //   echo "Connection failed: " . $e->getMessage();
